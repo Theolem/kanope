@@ -2,6 +2,11 @@ Rails.application.routes.draw do
 
   root to: 'pages#home'
 
+  resources :centre, only: [:new, :create, :index, :edit, :update, :destroy] do
+    resources :comment, only: [:new, :create, :index, :destroy]
+  end
+
+  resources :product, only: [:new, :create, :index, :edit, :update, :destroy]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
