@@ -1,1 +1,13 @@
 // Your footer style
+.footer {
+  background-color: $theme-color-1;
+  color: #FFF;
+  height: auto;
+  margin: 0;
+  padding: 10px 0;
+
+  .social-links a {
+    color: #FFF;
+    font-size: 20px;
+  }
+}
