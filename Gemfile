@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'autoprefixer-rails'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.3.1'
 gem 'figaro'
 gem 'font-awesome-sass', '~> 4.2.0'
 gem 'simple_form'
+gem 'slim'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
