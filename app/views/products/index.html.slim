@@ -1,2 +1,31 @@
-.h1
-   'All our products
+h1.text-center
+  'Notre carte
+
+h3.text-center
+  = link_to 'Entrées', products_path, class: 'link-menu hover'
+  '|
+  = link_to 'Plats', products_path, class: 'link-menu hover'
+  '|
+  = link_to 'Desserts', products_path, class: 'link-menu hover'
+
+hr
+br
+
+.container
+  #entry
+  'Entrées
+  .row
+    col-xs-6.col-sm-4.col-md-3
+  #dish
+  'Plats
+  .row
+    col-xs-6.col-sm-4.col-md-3
+  #desert
+  'Desserts
+  .row
+    col-xs-6.col-sm-4.col-md-3
+
+/ http://stackoverflow.com/questions/7717527/jquery-smooth-scrolling-when-clicking-an-anchor-link
+
+
+
