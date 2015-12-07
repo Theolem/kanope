@@ -5,3 +5,14 @@
     color: $theme-color-1
   }
 }
+
+.product {
+  display: block;
+  height: 180px;
+  border-right: 1px solid #cacaca;
+  padding: 20px 0 0;
+}
+
+#content.sandwichs ul.products li:nth-child(3n) a {
+    border-right: 0;
+}

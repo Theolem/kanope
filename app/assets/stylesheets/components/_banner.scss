@@ -8,6 +8,16 @@
   object-position: 50% 50%;
 }
 
+.bannermenu {
+  background-size: cover;
+  background-image: url(/assets/menupic.jpg);
+  color: white;
+  padding: 120px 0;
+  position: relative;
+  z-index: 0;
+  object-position: 70% 50%;
+}
+
 .banner-pages {
   background-size: cover;
   color: white;

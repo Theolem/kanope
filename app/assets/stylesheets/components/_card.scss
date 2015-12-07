@@ -1,0 +1,34 @@
+.card {
+  position: relative;
+  height: 150px;
+  margin: 10px 0;
+  background-color: #f7f7f7;
+  border-style: groove;
+  border-width: 1px;
+  border-color: $theme-color-2;
+}
+
+.card-teaser {
+  position: relative;
+  height: 50px;
+  margin: 10px 0;
+  width: 400px;
+}
+
+.card-description,
+.card-text,
+.card-user {
+  position: absolute;
+  z-index: 1;
+  color: black;
+}
+
+.card-text {
+  bottom: 10;
+  left: 5px;
+}
+
+.card-description {
+  left: 5px;
+  top: 5px;
+}

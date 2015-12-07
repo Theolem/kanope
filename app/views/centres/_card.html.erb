@@ -1,0 +1,13 @@
+<% @centres.each do |centre| %>
+  <div class="col-xs-12 col-sm-6">
+    <div class="card">
+      <div class="card-bg"></div>
+      <span class="card-gradient"></span>
+      <div class="card-text">
+        <h2> <i class="fa fa-home"></i> <%= centre.name %></h2>
+        <p><%= centre.address %> <%= centre.city%> <%= centre.postcode%></p>
+      </div>
+    </div>
+  </div>
+<% end %>
+

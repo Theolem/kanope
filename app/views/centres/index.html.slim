@@ -1,20 +1,11 @@
 h1.text-center
-  'Retrouvez tous nos centres de la métropole lilloise
+  'Retrouvez nos centres de la métropole lilloise
 
 br
 
 = render 'map'
 
 .container
-  .row
-    - @centres.each do |centre|
-      col-xs-12.col-sm-6
-        h2.text-center
-          i.fa.fa-home
-          => centre.name
-        p
-          = centre.address
-          => centre.city
-          => centre.postcode
+  = render 'card'
 
 br

@@ -8,3 +8,6 @@
 
 Centre.create!(name: "Kanopé Villeneuve", address: "Allée des Ecuries", city: "Villeneuve d'Ascq" , postcode: "59491")
 Centre.create!(name: "Kanopé Lille Europe", address: "24 rue d'Athènes", city: "Lille" , postcode: "59000")
+
+Product.create!(name: "Poulet Chinois", pricettc: "7", priceclub: "5", description: "Un plat typique chinois pour les gourmets", reduction: "28")
+Product.create!(name: "Gratin Dauphinois", pricettc: "9", priceclub: "6", description: "Un classique français", reduction: "33")
