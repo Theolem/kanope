@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'autoprefixer-rails'
+gem 'activeadmin', github: 'activeadmin'
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'figaro'
 gem 'geocoder'
