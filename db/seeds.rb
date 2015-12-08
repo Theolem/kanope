@@ -11,3 +11,4 @@ Centre.create!(name: "Kanopé Lille Europe", address: "24 rue d'Athènes", city:
 
 Product.create!(name: "Poulet Chinois", pricettc: "7", priceclub: "5", description: "Un plat typique chinois pour les gourmets", reduction: "28")
 Product.create!(name: "Gratin Dauphinois", pricettc: "9", priceclub: "6", description: "Un classique français", reduction: "33")
+User.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
