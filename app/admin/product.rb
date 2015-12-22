@@ -1,5 +1,17 @@
-ActiveAdmin.register User do
-  permit_params :name, :mail, :phone
+ActiveAdmin.register Product do
+  permit_params :name, :description, :pricettc, :priceclub, :reduction
+
+
+  form do |f|
+    f.inputs "Details" do
+      f.input :name
+      f.input :description
+      f.input :pricettc
+      f.input :priceclub
+      f.input :reduction
+    end
+   f.actions
+  end
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters

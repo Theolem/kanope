@@ -11,7 +11,9 @@ br
 
 .container
   h2
-    'Les stars du moment
+    'Les stars
+  p
+    'Présents dans tous les centres cette semaine, sous réserve de disponibilité
 .container
   - @products.each do |product|
     col-xs-12.col-sm-6.col-md-4
@@ -37,7 +39,7 @@ br
   hidden-xs.visible-sm.hidden-md
     = image_tag 'logo-KANOPE.png', class: 'img-responsive', style: 'height: 170px; widht: 170px; padding-left: 100px;'
 
-
+br
 .container
   .row
     col-xs-12.col-md-6

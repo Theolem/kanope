@@ -14,11 +14,14 @@ br
         = f.error_notification
         .container
           .row
-        = f.input :name
+        = f.input :firstname, label: "Prénom"
+        = f.input :name, label: "Nom"
+        = f.input :company, label: "Entreprise"
         = f.input :mail
-        = f.input :phone
+        = f.input :phone, label: "Tel."
+        = f.input :address, label: "Adresse postale", hint: "La vôtre !"
 
-        = f.button :submit, 'Envoyer'
+        = f.button :submit, 'Rejoindre le club'
 
 
 br
