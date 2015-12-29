@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
+  root to: 'pages#home'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   devise_for :users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  root to: 'pages#home'
 
   resources :centres, only: [:new, :create, :index, :edit, :update, :destroy] do
     resources :comment, only: [:new, :create, :index, :destroy]
