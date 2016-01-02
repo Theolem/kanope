@@ -2,7 +2,7 @@ ActiveAdmin.register Centre do
   permit_params :name, :adress, :city, :postcode
 
 
-  form do |f|
+  form html: { enctype: "multipart/form-data" } do |f|
     f.inputs "Details" do
      f.input :name
      f.input :address

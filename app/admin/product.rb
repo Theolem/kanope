@@ -1,8 +1,7 @@
 ActiveAdmin.register Product do
   permit_params :name, :description, :pricettc, :priceclub, :reduction
 
-
-  form do |f|
+  form html: { enctype: "multipart/form-data" } do |f|
     f.inputs "Details" do
       f.input :name
       f.input :description
