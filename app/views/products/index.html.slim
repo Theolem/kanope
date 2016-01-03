@@ -15,7 +15,7 @@ br
   p
     'Présents dans tous les centres cette semaine, sous réserve de disponibilité
 .container
-  - @products.each do |product|
+  - @dish.each do |product|
     col-xs-12.col-sm-6.col-md-4
       .card
         h4
@@ -46,7 +46,7 @@ br
       h2.text-center
         'Entrées et plats
       hr
-      - @products.each do |product|
+      - @dish.each do |product|
         ul
           li
             => product.name
@@ -63,7 +63,7 @@ br
       h2.text-center
         'Desserts et boissons
       hr
-      - @products.each do |product|
+      - @desert.each do |product|
         ul
           li
             => product.name

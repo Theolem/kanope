@@ -10,7 +10,7 @@ ActiveAdmin.register User do
       f.input :phone
       f.input :company
       f.input :address
-      f.input :country
+      f.input :country, as: :string
       f.input :picture, as: :file
     end
    f.actions

@@ -1,6 +1,7 @@
 class ProductsController < ApplicationController
 
   def index
-    @products = Product.all
+    @dish = Product.where(group: "1")
+    @desert = Product.where(group: "2")
   end
 end
