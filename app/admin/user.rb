@@ -1,7 +1,6 @@
 ActiveAdmin.register User do
   permit_params :name, :mail, :phone, :picture, :address, :company, :firstname, :country
 
-
   form do |f|
     f.inputs "Details" do
       f.input :firstname
